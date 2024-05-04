@@ -13,9 +13,9 @@ return (
             <img src={logo} alt='logo react'></img>
             <nav>
                 <ul>
-                    <li><a href='#'>Item 1</a></li>
-                    <li><a href='#'>Item 2</a></li>
-                    <li><a href='#'>Item 3</a></li>
+                    <li><a href='#'>Modelle</a></li>
+                    <li><a href='#'>Electro machine</a></li>
+                    <li><a href='#'>Konfigurator</a></li>
                     </ul>
                 </nav>
                 <span>Time now: {(now).toLocaleTimeString()}</span>

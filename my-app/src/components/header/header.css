@@ -1,9 +1,9 @@
 header {
     display: flex;
-    justify-content: space-around;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     height: 10vh;
-    background-color: rgb(172, 39, 39);
+    background-color: rgba(172, 39, 39, 0.623);
     
 }
     
@@ -18,11 +18,12 @@ nav{
 ul{
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    margin-left: -60px;
 }
     
 li > a{
     text-decoration: none;
     font-size: 25px;
-    color: white
+    color: white;
+    margin-right: 40px;
 }
