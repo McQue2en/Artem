@@ -1,6 +1,7 @@
 import './header.css'
 import logo from '../../logo.svg'
 import{ useState } from 'react';
+import logo from '/workspaces/Artem/my-app/src/content/images/bmw_logo.png'
 
 
 export default () => {
