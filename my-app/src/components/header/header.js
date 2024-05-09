@@ -1,7 +1,7 @@
 import './header.css'
 // import logo from '../../logo.svg'
 import{ useState } from 'react';
-import logo from '../../content/imagesss/BMW_logo.png';
+import logo from '../../content/imagesss/BMW_Logo.png';
 
 
 export default () => {

@@ -8,7 +8,8 @@ header {
 }
     
 img {
-    width: 10%;
+    width: 12%;
+    margin-right: 20px;
 }
     
 nav{
@@ -18,12 +19,12 @@ nav{
 ul{
     display: flex;
     list-style: none;
-    margin-left: -60px;
+    margin-left: -90px;
 }
     
 li > a{
     text-decoration: none;
     font-size: 25px;
     color: white;
-    margin-right: 40px;
+    margin-right: 25px;
 }
