@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       {/* Обертка для изображения с применением класса для стилей */}
       <div className='img-container'>
-        <img src={myImage} className='img-custom' alt="BMW M8" />
+          <img src={myImage} className='img-custom' alt="BMW M8" />
       </div> 
       {/* Обертка для оставшегося содержимого с применением класса для стилей */}
       <div className='App-header'>
@@ -35,9 +35,8 @@ function App() {
             </dl>
           </section>
           <section>
-            <h3>All buttons</h3>
             <Button onClick={() => handleClick('prop1')}>More</Button>
-            <Button onClick={() => handleClick('prop2')}>More</Button>
+            <Button onClick={() => handleClick('prop2')}>Find now</Button>
             <Button onClick={() => handleClick('prop3')}>More</Button>
             <p>{dataForButtons[contentFromButton]}</p>
           </section>

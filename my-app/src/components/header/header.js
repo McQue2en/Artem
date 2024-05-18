@@ -1,15 +1,11 @@
 import './header.css'
-// import logo from '../../logo.svg'
-import{ useState } from 'react';
 import logo from '../../content/imagesss/BMW_Logo.png';
 
 
 export default () => {
-    const[now, setNow] = useState(new Date());
-
-    setInterval(() => setNow(new Date()), 1000)
 return (
     <div className="App">
+        <div className="white-strip"></div>
         <header>
             <img src={logo} alt='logo react'></img>
             <nav>
@@ -19,7 +15,6 @@ return (
                     <li><a href='#'>Konfigurator</a></li>
                     </ul>
                 </nav>
-                <span>Time now: {(now).toLocaleTimeString()}</span>
             </header>
         </div>
 )

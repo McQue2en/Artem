@@ -8,13 +8,16 @@
   
 }
 
-/* Удостоверьтесь, что класс img-custom имеет нужные стили для изображения */
+
 .img-custom {
   max-width: 100%;
   height: auto;
   position: fixed;
-  right: 680px; /* Перемещает блок на 50px вправо от его обычного положения */
-  bottom:130px;
-  height: 1000px;
-  width: 200px;
+  left: auto; /* Перемещает блок на 50px вправо от его обычного положения */
+  top: -150px;
+  height: 1130px;
+  width: 1920px;
+  margin-left: 20px;
+  z-index: -1;/*перемещение картинки на задний план*/
 }
+

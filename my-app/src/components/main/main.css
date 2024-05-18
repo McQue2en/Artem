@@ -1,3 +1,5 @@
-dt {
+dt { /*Предложение под шапкой*/
     font-weight: bold;
+    color: white;
+    margin-left: 71px;
 }

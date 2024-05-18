@@ -1,13 +1,12 @@
-header {
+header {  /*шапка*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    background-color: rgba(172, 39, 39, 0.623);
-    
+    background-color: rgba(255, 255, 255, 0);  
 }
     
-img {
+img { /*картинка лого*/
     width: 12%;
     margin-right: 20px;
 }
@@ -25,6 +24,54 @@ ul{
 li > a{
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: rgb(248, 248, 248);
     margin-right: 25px;
 }
+
+.white-strip { /*белая линия*/
+    background-color: white;
+    position: fixed;
+    height: 1px;
+    width: 91%;
+    margin-top: 90px;
+    margin-left: 69px;
+  }
+
+/* Стили для списка */
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: -90px;
+    padding: 0; /* Обнулите внутренний отступ если он есть */
+}
+
+/* Стили для ссылок внутри списка и для эффекта наведения */
+li > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-right: 10px;
+    padding: 20px;
+    position:relative; /* Для позиционирования анимированной полоски */
+}
+
+/* Невидимая полоска под каждой ссылкой */
+li > a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px; /* Высота анимированной полоски */
+    background-color: #ffffff; /* Цвет полоски */
+    transform: scaleX(0); /* Начальное масштабирование полоски */
+    transition: transform 0.25s ease-in-out; /* Эффект анимации для полоски */
+}
+
+/* Стили для анимированной полоски при наведении */
+li > a:hover::after,
+li > a:focus::after { /* Добавлено для доступности */
+    transform: scaleX(1); /* Полное масштабирование полоски */
+}
+  
